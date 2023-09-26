@@ -1,0 +1,12 @@
+/* Write your CSS here */
+.footer-container {
+  background-color: #cbd5e1;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-heading {
+  color: #475569;
+  font-family: 'roboto';
+}

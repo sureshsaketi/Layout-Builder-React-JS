@@ -1,0 +1,13 @@
+.layout-container {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 40px;
+}
+@media screen and (min-width: 768px) {
+  .layout-container {
+    width: 90%;
+  }
+}

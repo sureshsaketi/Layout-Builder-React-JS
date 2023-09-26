@@ -1,0 +1,92 @@
+/* Write your CSS here */
+.body-container {
+  display: flex;
+  gap: 5px;
+}
+@media screen and (max-width: 767px) {
+  .body-container {
+    flex-direction: column;
+  }
+}
+.left-navbar-menu {
+  background-color: #e2e8f0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.item-heading {
+  font-size: 16px;
+  font-family: 'roboto';
+  color: #475569;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .left-navbar-menu {
+    width: 30%;
+    align-items: flex-start;
+  }
+}
+.left-navbar-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .left-navbar-list {
+    flex-direction: column;
+  }
+}
+.content {
+  padding: 20px;
+  background-color: #f1f5f9;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .content {
+    width: 40%;
+    flex-grow: 1;
+  }
+}
+.right-navbar {
+  background-color: #e2e8f0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .right-navbar {
+    width: 30%;
+  }
+}
+
+.ads-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.ad-box {
+  height: 150px;
+  min-width: 80px;
+  border: 1px solid #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .ads-container {
+    flex-direction: column;
+  }
+  .ad-box {
+    width: 120px;
+    height: 120px;
+  }
+}
